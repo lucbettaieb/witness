@@ -137,9 +137,9 @@ grpc_pip_install()
 http_archive(
     name = "opencv_archive",
     build_file = "//third_party:opencv.BUILD",
-    sha256 = "f3b160b9213dd17aa15ddd45f6fb06017fe205359dbd1f7219aad59c98899f15",
-    strip_prefix = "opencv-3.1.0",
-    url = "https://github.com/opencv/opencv/archive/3.1.0.tar.gz",
+    sha256 = "b7ea364de7273cfb3b771a0d9c111b8b8dfb42ff2bcd2d84681902fb8f49892a",
+    strip_prefix = "opencv-3.4.9",
+    url = "https://github.com/opencv/opencv/archive/3.4.9.tar.gz",
 )
 
 http_archive(
